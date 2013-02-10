@@ -1,0 +1,26 @@
+An implementation of the Gale & Church parallel text alignment algorithm
+
+
+This repository contains the implementation of the alignment algorithm used for
+the Coral project.
+
+Coral is a parallel text alignment tool developed for a university project at
+the TakeLab (Text Analysis and Knowledge Engineering Laboratory), an NLP
+research group run by prof. Bojana Dalbelo-Bašić at the Faculty of Electrical
+Engineering and Computing at the University of Zagreb, Croatia.
+For more information about TakeLab, please see http://takelab.fer.hr/.
+
+Coral is a powerful application with a an easy-to-use graphical user interface.
+It can be used for both manual parallel text alignment and for automated
+alignment with the help of this implementation Gale and Church's algorithm.
+It's available for download at http://takelab.fer.hr/coral/ along with more
+information about its development and the student team that worked on it.
+
+This Github repository, however, contains only the Gale and Church alignment
+algorithm I implemented, without a GUI and additional sentence segmentation
+code.
+It also contains a DataModel class implemented by Željko Rumenjak, as this
+class was used as a data holder for the parallel texts.
+
+The code here can simply cloned from this Git repository and then added to other
+existing projects in need of an alignment algorithm.
